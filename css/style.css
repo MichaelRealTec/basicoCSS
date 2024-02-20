@@ -27,8 +27,17 @@ p.paragrafo{
     font-size: 30px
 }
 
+[name]{  /* chamar o atributo do html */
+    color: blue;
+}
 
+[type=text]{
+    width:900px;
+}
 
+[type=button]{
+    background-color: red;
+}
 
 
 

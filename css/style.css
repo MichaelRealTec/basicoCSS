@@ -10,3 +10,31 @@ h2{
     font-style: italic;
     font-weight: normal;
 }
+
+.teste{       /* chamar a class test do html */
+    color:red;
+}
+
+#teste{
+    color: green;
+}
+
+.paragrafo{
+    font-size: 10px;
+}
+
+p.paragrafo{
+    font-size: 30px
+}
+
+
+
+
+
+
+
+
+
+
+
+

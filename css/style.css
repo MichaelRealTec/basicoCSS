@@ -4,8 +4,24 @@
     box-sizing: border-box;
 }
 
-.teste > .testes2 > h2.title { /* >  quero que seja diretamente dentro e se estiver dentro de outra div devo especificar  */
-    color: blue; 
+@keyframes anim1{
+
+    from{background-color:green;width:400px;}
+    to{background-color: red;width:2px;}
+
+}
+
+
+.teste { /* >  quero que seja diretamente dentro e se estiver dentro de outra div devo especificar  */
+    width: 400px;
+    height: 400px;
+    background-color: green;
+    animation-name: anim1;
+    animation-duration: 3s; 
+    animation-delay: 2s;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+    animation-iteration-count: 2;
 }
 
 h2{

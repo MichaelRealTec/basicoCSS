@@ -4,12 +4,29 @@
     box-sizing: border-box;
 }
 
-
-h2.title{   /* nível de importância maior */ 
-    color:blue;
+.teste > .testes2 > h2.title { /* >  quero que seja diretamente dentro e se estiver dentro de outra div devo especificar  */
+    color: blue; 
 }
 
 h2{
-    color:red;  /* não importa o lugar do h2 se for depois do primeiro h2.(class title) o resultado será o mesmo */
+    color: red !important; /* Quando é marcado com o nível de importancia prevalece sobre os outros */
 }
 
+
+
+
+
+
+
+
+
+/*
+
+h2.title{   /* nível de importância maior que (h2) 
+    color:green;
+}
+
+h2{
+    color:red;  /* não importa o lugar do h2 se for depois do primeiro h2.(class title) o resultado será o mesmo 
+}
+*/

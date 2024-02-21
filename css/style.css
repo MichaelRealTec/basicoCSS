@@ -4,19 +4,76 @@
     box-sizing: border-box;
 }
 
-@keyframes anim1{
-    /* Controlar os valors */
-    0%{background-color: green;}
-    50%{background-color: red;}
-    100%{background-color: blue;}
-    /*
-    from{background-color:green;width:400px;}
-    to{background-color: red;width:2px;}
-    */
+body{
+    background-color: #49525b;
+}
+
+.form{
+    text-align: center;
+    padding: 20px;
+}
+
+.form img{
+    max-width: 500px;
+    width:100%;
+}
+
+.form input[type=text], 
+.form input[type=email]{
+    padding-left:10px;
+    display: block;
+    border-radius: 20px;
+    margin:10px auto;
+    font-size: 16px;
+    max-width: 500px;
+    width:100%;
+    height:35px;
+    border:1px solid #ccc;
+}
+
+.form textarea{
+    padding: 10px;
+    resize: vertical;
+    display: block;
+    margin: 10px auto;
+    border-radius:20px;
+    font-size: 16px;
+    max-width: 500px;
+    width: 100%;
+    height: 120px;
 }
 
 
-.teste { /* >  quero que seja diretamente dentro e se estiver dentro de outra div devo especificar  */
+
+.form input[type=submit]{
+    padding-left:10px;
+    display: block;
+    border-radius: 20px;
+    margin:10px auto;
+    font-size: 16px;
+    max-width: 500px;
+    width:100%;
+    cursor: pointer;
+    color:white;
+    background-color: #49525b;
+    height:35px;
+    border:1px solid #ccc;
+
+}
+/*
+@keyframes anim1{
+    /* Controlar os valors 
+    0%{background-color: green;}
+    50%{background-color: red;}
+    100%{background-color: blue;}
+    
+    from{background-color:green;width:400px;}
+    to{background-color: red;width:2px;}
+    
+}
+
+
+.teste { /* >  quero que seja diretamente dentro e se estiver dentro de outra div devo especificar  
     width: 400px;
     height: 400px;
     background-color: green;
@@ -29,7 +86,7 @@
 }
 
 h2{
-    color: red !important; /* Quando é marcado com o nível de importancia prevalece sobre os outros */
+    color: red !important; /* Quando é marcado com o nível de importancia prevalece sobre os outros 
 }
 
 
@@ -40,7 +97,7 @@ h2{
 
 
 
-/*
+
 
 h2.title{   /* nível de importância maior que (h2) 
     color:green;

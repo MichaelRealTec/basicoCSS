@@ -4,24 +4,32 @@
     box-sizing: border-box;
 }
 
+.container{   /* Encapsulamento dos elementos div para ajustar as margins */
+    margin-left: 20px;
+}
+
 .d1{
     width:300px;
     /* height:300px;   = Não é comum preencher a altura pois ela cresce com o conteúdo */
+    margin-left: 10px; 
     display: inline-block;
     background-color:blue;
+    
 }
 
 
 .d2{
     width:300px;
     height:300px;
+    margin-top: 20px;
     display:inline-block;
-    background-color:red        ;
+    background-color:red;
 }
 
 
 .d3{
     width:300px;
+    margin-left: 10px; 
     height:300px;
     display: inline-block;
     background-color:green;

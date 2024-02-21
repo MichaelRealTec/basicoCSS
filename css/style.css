@@ -4,44 +4,28 @@
     box-sizing: border-box;
 }
 
-h2{
-    font-size: 17px;
-    font-family: 'Lato', sans-serif;
-    font-style: italic;
-    font-weight: normal;
-}
-
-.teste{       /* chamar a class test do html */
-    color:red;
-}
-
-#teste{
-    color: green;
-}
-
-.paragrafo{
-    font-size: 10px;
-}
-
-p.paragrafo{
-    font-size: 30px
-}
-
-[name]{  /* chamar o atributo do html */
-    color: blue;
-}
-
-[type=text]{
-    width:900px;
-}
-
-[type=button]{
-    background-color: red;
+.d1{
+    width:300px;
+    /* height:300px;   = Não é comum preencher a altura pois ela cresce com o conteúdo */
+    display: inline-block;
+    background-color:blue;
 }
 
 
+.d2{
+    width:300px;
+    height:300px;
+    display:inline-block;
+    background-color:red        ;
+}
 
 
+.d3{
+    width:300px;
+    height:300px;
+    display: inline-block;
+    background-color:green;
+}
 
 
 

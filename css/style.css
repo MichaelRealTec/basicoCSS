@@ -5,10 +5,14 @@
 }
 
 @keyframes anim1{
-
+    /* Controlar os valors */
+    0%{background-color: green;}
+    50%{background-color: red;}
+    100%{background-color: blue;}
+    /*
     from{background-color:green;width:400px;}
     to{background-color: red;width:2px;}
-
+    */
 }
 
 
